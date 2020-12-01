@@ -6,20 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="GeneralRoboticsToolboxNET" Version="0.1.0" />
-    <PackageReference Include="MathNet.Numerics" Version="4.12.0" />
     <PackageReference Include="Mono.Options" Version="6.6.0.161" />
-    <PackageReference Include="Mono.Posix.NETStandard" Version="1.0.0" />
-    <PackageReference Include="YamlDotNet" Version="8.1.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="RobotRaconteurNET">
-      <HintPath>..\..\..\build_vscode\RobotRaconteurNET\netstandard\Lib\bin\Debug\netstandard2.0\RobotRaconteurNET.dll</HintPath>
-    </Reference>
-    <Reference Include="RobotRaconteurNET.Companion">
-      <HintPath>..\..\..\RobotRaconteurNET.Companion\bin\Debug\netstandard2.0\RobotRaconteurNET.Companion.dll</HintPath>
-    </Reference>
+    <PackageReference Include="RobotRaconteurNET.Companion" Version="0.1.5" />
   </ItemGroup>
 
 </Project>
